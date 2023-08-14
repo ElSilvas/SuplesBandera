@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.flag-container {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    border: 5px solid #000000;
+}
+
+.flag {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.stripe {
+  flex: 1;
+}
+
+.button-container {
+  border: 5px solid #d72f2f;
+  margin-left: 100 px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-container button {
+  margin: 10px 0;
+}
